@@ -32,3 +32,4 @@ jobs:
         app-name: 'udacityizoo'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_27e70961221c4a56b43a403ecad465f2 }}
+        blob_storage_key: ${{ secrets.blob_storage_key}}
