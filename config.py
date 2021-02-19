@@ -14,3 +14,4 @@ class Config(object):
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'udacityblobstorage'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or '9OI4SwaRWX8O5isdajGYmR+PACARjxPNmMAe//WA2Obi9Vbyvdhi+AxyCCVFS6VWNZhoD8Im5atX+9YTnYOO/g=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
+
